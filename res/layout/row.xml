@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="64dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:paddingRight="4px" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/username"
+            style="@style/RowText.Name"
+            android:text="Prueba" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/RowText.Surname"
+            android:text="Prueba 2" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
